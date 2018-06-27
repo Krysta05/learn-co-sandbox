@@ -1,0 +1,18 @@
+class eliment
+ def intitalize(name,atomic_number
+ @name = name 
+ @atomic_number = atomic_number
+    end
+    
+ def name 
+ @name
+ end
+ 
+ def atomic_number
+ @atomic_number
+ end
+ 
+ end
+ 
+ puts hydrogen = eliment.new ("hydrogen",1)
+puts hydrogen.atomic_number 
